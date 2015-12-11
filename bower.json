@@ -1,0 +1,36 @@
+{
+  "name": "GhostTheme",
+  "authors": [
+    "Herobs <herobs@herobs.cn>"
+  ],
+  "description": "A theme for ghost.",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Herobs",
+    "blog",
+    "ghost"
+  ],
+  "license": "MIT",
+  "homepage": "http://blog.herobs.cn",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "json3": "~3.3.2",
+    "es5-shim": "~4.3.1",
+    "respond": "~1.4.2",
+    "material-design-lite": "~1.0.6",
+    "font-awesome": "~4.5.0",
+    "jquery": "~2.1.4"
+  }
+}

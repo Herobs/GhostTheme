@@ -1,0 +1,4 @@
+# system files
+.DS_Store
+
+bower_components
