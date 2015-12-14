@@ -9,9 +9,9 @@ BiBi 完毕，开始进入正题。
 准备工作：
 --------
 
-* 主题官方文档：[](http://themes.ghost.org)
-* 模板官方文档：[](http://handlebarsjs.com)
-* 前端框架文档：[](http://www.getmdl.io)
+* 主题官方文档：[http://themes.ghost.org]()
+* 模板官方文档：[http://handlebarsjs.com]()
+* 前端框架文档：[http://www.getmdl.io]()
 
 Ghost 使用 [Handlebars](http://handlebarsjs.com) 作为模版引擎，语法与大多数模板语法相似，大概了解一下。
 
@@ -20,7 +20,7 @@ Ghost 使用 [Handlebars](http://handlebarsjs.com) 作为模版引擎，语法�
 Github
 ------
 
-[](https://github.com/Herobs/GhostTheme)
+[https://github.com/Herobs/GhostTheme]()
 
 文件结构
 -------
@@ -28,21 +28,36 @@ Github
 文件同官方文档推荐的结构：
 
     .
+    ├── README.md
     ├── assets/
     │   ├── css/
     │   │   ├── font-awesome.min.css
     │   │   ├── ghost.css
     │   │   └── material.min.css
     │   ├── fonts/
-    │   │   └── FontAwesome.otf
+    │   │   ├── FontAwesome.otf
+    │   │   ├── SonsieOne-Regular.ttf
+    │   │   ├── fontawesome-webfont.eot
+    │   │   ├── fontawesome-webfont.svg
+    │   │   ├── fontawesome-webfont.ttf
+    │   │   ├── fontawesome-webfont.woff
+    │   │   └── fontawesome-webfont.woff2
     │   ├── images/
+    │   │   ├── favicon.ico
+    │   │   └── logo.png
     │   └── js/
     │       ├── ghost.js
     │       ├── jquery.min.js
     │       └── material.min.js
+    ├── blog.md
+    ├── bower.json
     ├── default.hbs
     ├── index.hbs
+    ├── package.json
     ├── partials/
+    │   ├── loop.hbs
+    │   ├── navigation.hbs
+    │   └── pagination.hbs
     └── post.hbs
 
 开始编码：

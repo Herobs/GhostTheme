@@ -183,6 +183,10 @@ hr {
 }
 .post__title {
     margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 45px !important;
+    line-height: 48px !important;
+    border: none !important;
 }
 .post__title a {
     text-decoration: none;
@@ -209,4 +213,62 @@ hr {
     color: #fff;
     margin: 0 20px;
     vertical-align: middle;
+}
+
+/* markdown */
+.post__body h1, .post__body h2, .post__body h3, .post__body h4, .post__body h5, .post__body h6 {
+    font-weight: bold;
+}
+.post__body h1 {
+    color: #000000;
+    font-size: 28px;
+}
+.post__body h2 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    font-size: 24px;
+}
+.post__body h3 {
+    font-size: 18px;
+}
+.post__body h4 {
+    font-size: 16px;
+}
+.post__body h5 {
+    font-size: 14px;
+}
+.post__body h6 {
+    color: #777777;
+    background-color: inherit;
+    font-size: 14px;
+}
+.post__body hr {
+    height: 0.2em;
+    border: 0;
+    color: #CCCCCC;
+    background-color: #CCCCCC;
+}
+.post__body p, .post__body blockquote, .post__body ul, .post__body ol, .post__body dl, .post__body li, .post__body table, .post__body pre {
+    margin: 15px 0;
+}
+.post__body code, .post__body pre {
+    border-radius: 3px;
+    background-color: #F8F8F8;
+    color: inherit;
+}
+.post__body code {
+    border: 1px solid #EAEAEA;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+.post__body pre {
+    border: 1px solid #CCCCCC;
+    line-height: 1.25em;
+    overflow: auto;
+    padding: 6px 10px;
+}
+.post__body pre > code {
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
