@@ -19,8 +19,10 @@
     <body class="{{body_class}} site-wrapper">
         <header class="site-header">
             <img class="site-header__logo" src="{{asset "images/logo.png"}}" alt="logo">
-            <h2 class="site-header__title">{{@blog.title}}</h2>
-            <h3 class="site-header__decription">{{@blog.description}}</h3>
+            <div class="site-header__block">
+                <h2 class="site-header__title">{{@blog.title}}</h2>
+                <h3 class="site-header__decription">{{@blog.description}}</h3>
+            </div>
         </header>
         {{navigation}}
         <div class="site-content">

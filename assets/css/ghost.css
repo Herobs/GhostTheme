@@ -38,17 +38,19 @@ hr {
 .site-header__logo {
     display: inline-block;
     height: 72px;
-    vertical-align: bottom;
+    vertical-align: top;
+}
+.site-header__block {
+    display: inline-block;
 }
 .site-header__title {
     font-family: "Sonsie One", cursive;
     font-size: 56px;
-    display: inline-block;
     margin: 0 0 0 10px;
 }
 .site-header__decription {
+    font-family: monospace;
     font-size: 24px;
-    display: inline-block;
     margin: 0 0 0 20px;
     color: rgba(255, 255, 255, 0.5);
 }
