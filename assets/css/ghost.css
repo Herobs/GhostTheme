@@ -1,3 +1,11 @@
+/* fonts */
+@font-face {
+  font-family: 'Sonsie One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sonsie One'), local('SonsieOne-Regular'), url(/assets/fonts/SonsieOne-Regular.ttf) format('truetype');
+}
+
 /* font-awesome */
 .fa {
     color: #3F51B5;
@@ -33,7 +41,8 @@ hr {
     vertical-align: bottom;
 }
 .site-header__title {
-    font-size: 48px;
+    font-family: "Sonsie One", cursive;
+    font-size: 56px;
     display: inline-block;
     margin: 0 0 0 10px;
 }
