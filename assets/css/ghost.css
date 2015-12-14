@@ -58,7 +58,7 @@ hr {
 /* site-navbar */
 .site-navbar {
     background-color: #1A237E;
-    height: 72px;
+    height: 64px;
 }
 .site-navbar__nav {
     list-style: none;
@@ -87,8 +87,8 @@ hr {
     display: block;
     text-align: center;
     text-decoration: none;
-    line-height: 72px;
-    height: 72px;
+    line-height: 64px;
+    height: 64px;
     font-size: 1.6em;
     color: inherit;
 }
@@ -191,4 +191,22 @@ hr {
 .post__excerpt a {
     text-decoration: none;
     font-weight: 900;
+}
+
+/* pagination */
+.pagination {
+    width: 860px;
+    margin: -20px auto 30px;
+    text-align: center;
+}
+.pagination__current {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 24px;
+    color: #fff;
+    margin: 0 20px;
+    vertical-align: middle;
 }

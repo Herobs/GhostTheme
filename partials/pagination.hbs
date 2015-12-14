@@ -1,0 +1,15 @@
+<nav class="pagination" role="navigation">
+    {{#if prev}}
+        <a class="pagination__prev mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{page_url prev}}">&lt;&lt; Newer</a>
+    {{/if}}
+    {{#if prev}}
+    <span class="pagination__current mdl-color--primary">{{page}}</span>
+    {{else}}
+        {{#if next}}
+        <span class="pagination__current mdl-color--primary">{{page}}</span>
+        {{/if}}
+    {{/if}}
+    {{#if next}}
+        <a class="pagination__next mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{page_url next}}">Older &gt;&gt;</a>
+    {{/if}}
+</nav>
