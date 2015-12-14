@@ -1,10 +1,18 @@
 /* font-awesome */
 .fa {
     color: #3F51B5;
+    line-height: 24px;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
 }
 button > .fa {
     color: #fff;
     font-size: 28px;
+}
+
+hr {
+    margin: 0;
 }
 
 /* site-wrapper */
@@ -119,18 +127,15 @@ button > .fa {
 
 /* post */
 .post__image {
-    float: left;
-    width: 80%;
     padding: 0;
+    width: 100%;
     margin-right: 10px;
 }
 .post__image--mini {
     max-height: 360px;
 }
-.post__image--none {
-    float: right;
-}
 .post__date {
+    float: right;
     text-align: right;
     font-family: 'Georgia', serif;
     color: #3F51B5;
@@ -153,18 +158,20 @@ button > .fa {
 .post__author {
     font-size: 20px;
     display: inline-block;
-}
-.post__author-thumb {
-    width: 20px;
-    height: 20px;
+    padding: 8px;
 }
 .post__tags {
     padding: 8px;
-    display: inline-block;
+}
+.post__tags--inline {
     margin-left: 10px;
+    display: inline-block;
 }
 .post__body {
     padding: 16px;
+}
+.post__title {
+    margin-top: 0;
 }
 .post__title a {
     text-decoration: none;
