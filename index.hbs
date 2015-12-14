@@ -7,32 +7,32 @@
             {{#if image}}
             <img class="post__image post__image--mini" src="{{image}}" />
             {{/if}}
-            <div class="post__meta">
-                <div class="post__date">
-                    <time class="post__day" datetime="{{date format="DD"}}">{{date format="DD"}}</time>
-                    <time class="post__month-year" datetime="{{date format="MMM, YYYY"}}">{{date format="MMM, YYYY"}}</time>
-                </div>
-                <div class="post__author">
-                    {{#if author.image}}
-                        <img class="post__author-thumb" src="{{author.image}}" alt="{{author.name}}" nopin="nopin" />
-                    {{else}}
-                        <span class="post__author-thumb fa fa-user"></span>
-                    {{/if}}
-                    {{author}}
-                </div>
-                {{#if tags}}
-                <div class="post__tags">
-                    <span class="fa fa-tag"></span>
-                    {{tags}}
-                </div>
-                {{/if}}
+            <div class="post__date">
+                <time class="post__day" datetime="{{date format="DD"}}">{{date format="DD"}}</time>
+                <time class="post__month-year" datetime="{{date format="MMM, YYYY"}}">{{date format="MMM, YYYY"}}</time>
             </div>
         </div>
         <div class="post__body">
             <h2 class="post__title"><a href="{{url}}">{{{title}}}</a></h2>
             <section class="post__excerpt">
-                <p>{{excerpt words="96"}} <a class="post__read-more" href="{{url}}">&raquo;</a></p>
+                <p>{{excerpt words="96"}} <a class="post__read-more" href="{{url}}">. . .</a></p>
             </section>
+        </div>
+        <div class="post__meta">
+            <div class="post__author">
+                {{#if author.image}}
+                    <img class="post__author-thumb" src="{{author.image}}" alt="{{author.name}}" nopin="nopin" />
+                {{else}}
+                    <span class="post__author-thumb fa fa-user"></span>
+                {{/if}}
+                {{author}}
+            </div>
+            {{#if tags}}
+            <div class="post__tags">
+                <span class="fa fa-tag"></span>
+                {{tags}}
+            </div>
+            {{/if}}
         </div>
     </article>
     {{/foreach}}
