@@ -1,0 +1,7 @@
+<nav class="site-navbar">
+    <ul class="site-navbar__nav">
+        {{#foreach navigation}}
+        <li class="site-navbar__navitem{{#if current}} site-navbar__navitem--active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+    </ul>
+</nav>

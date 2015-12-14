@@ -1,0 +1,107 @@
+/* site-wrapper */
+.site-wrapper {
+    background-color: #f0f0f0;
+}
+
+/* site-header */
+.site-header {
+    background-color: #3F51B5;
+    color: #fff;
+    height: 72px;
+    padding: 32px;
+}
+.site-header__logo {
+    display: inline-block;
+    height: 72px;
+    vertical-align: bottom;
+}
+.site-header__title {
+    font-size: 48px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.site-header__decription {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+/* site-navbar */
+.site-navbar {
+    background-color: #1A237E;
+    height: 72px;
+}
+.site-navbar__nav {
+    list-style: none;
+    margin: 0;
+}
+.site-navbar__navitem {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    color: rgba(255, 255, 255, 0.6);;
+}
+.site-navbar__navitem--active {
+    color: #fff;
+}
+.site-navbar__navitem--active::after {
+    height: 4px;
+    width: 100%;
+    display: block;
+    content: " ";
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #FF4081;
+}
+.site-navbar__navitem > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 72px;
+    height: 72px;
+    font-size: 1.6em;
+    color: inherit;
+}
+
+/* site-footer */
+.site-footer {
+    background-color: #424242;
+    color: #fff;
+    padding: 15px 30px;
+}
+.site-footer__miitbeian {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+.site-footer__copyright {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.site-footer__poweredby {
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+}
+
+/* site-content */
+.site-content {
+    padding-top: 48px;
+}
+.site-content .post {
+    max-width: 860px;
+    background-color: #fff;
+    margin: 0 auto 48px;
+}
+
+/* post */
+.post__header {
+    width: 100%;
+    max-height: 480px;
+    padding: 0;
+}
+.post__body {
+    padding: 16px;
+}

@@ -11,22 +11,30 @@
         <meta name="HandheldFriendly" content="true">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+        <link rel="shortcut icon" href="{{asset "images/favicon.ico"}}">
         <link rel="stylesheet" href="{{asset "css/material.min.css"}}" media="screen" charset="utf-8">
         <link rel="stylesheet" href="{{asset "css/font-awesome.min.css"}}" media="screen" charset="utf-8">
         <link rel="stylesheet" href="{{asset "css/ghost.css"}}" media="screen" charset="utf-8">
     </head>
-    <body class="{{body_class}}">
+    <body class="{{body_class}} site-wrapper">
+        <header class="site-header">
+            <img class="site-header__logo" src="{{asset "images/logo.png"}}" alt="logo">
+            <h2 class="site-header__title">{{@blog.title}}</h2>
+            <h3 class="site-header__decription">{{@blog.description}}</h3>
+        </header>
         {{navigation}}
         <div class="site-content">
             {{{body}}}
         </div>
         <footer class="site-footer">
-            <section class="copyright">
+            <section class="site-footer__miitbeian">
+                <a href="http://www.miitbeian.gov.cn">浙ICP备15043847号</a>
+            </section>
+            <section class="site-footer__copyright">
                 <a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}
             </section>
-            <section class="poweredby">
-                Proudly published with <a href="https://ghost.org">Ghost</a>
+            <section class="site-footer__poweredby">
+                Powered by <a href="https://ghost.org">Ghost</a>
             </section>
         </footer>
         <script src="{{asset "js/jquery.min.js"}}" charset="utf-8"></script>
