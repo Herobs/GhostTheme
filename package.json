@@ -1,6 +1,6 @@
 {
   "name": "ghost-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A theme for ghost.",
   "main": "index.js",
   "scripts": {
