@@ -183,7 +183,7 @@ hr {
 }
 .post__title {
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 36px;
     font-size: 45px !important;
     line-height: 48px !important;
     border: none !important;
@@ -192,9 +192,16 @@ hr {
     text-decoration: none;
     font-size: 36px;;
 }
-.post__excerpt a {
+.post__excerpt {
+    max-height: 350px;
+    overflow: hidden;
+}
+.post__read-more {
+    float: right;
+    margin: 5px;
+    text-align: right;
     text-decoration: none;
-    font-weight: 900;
+    font-size: 1.2em;
 }
 
 /* pagination */

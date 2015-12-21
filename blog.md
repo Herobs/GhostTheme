@@ -60,7 +60,7 @@ Github
     │   └── pagination.hbs
     └── post.hbs
 
-开始编码：
+开始编码
 ========
 
 导航栏
