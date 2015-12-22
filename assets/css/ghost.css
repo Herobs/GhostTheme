@@ -203,6 +203,13 @@ hr {
     text-decoration: none;
     font-size: 1.2em;
 }
+.post__external-link {
+    margin-left: 5px;
+    line-height: 14px;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+}
 
 /* pagination */
 .pagination {

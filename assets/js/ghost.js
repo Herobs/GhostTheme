@@ -20,4 +20,11 @@ $(function() {
     scrollToTop.click(function() {
         $("html, body").animate({ scrollTop: 0 }, 300);
     });
+
+    $externalLinkIcon = $('<i class="post__external-link fa fa-external-link"></i>');
+    $.each($('.post__body a'), function() {
+        var a = $(this);
+        a.attr('target', '_blank');
+        $externalLinkIcon.clone().appendTo(a);
+    });
 });
